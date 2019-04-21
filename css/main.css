@@ -7,22 +7,6 @@ html {
   overflow-y: hidden;
   white-space: nowrap;
 }
-/*
-.image-card {
-  display: inline-block;
-  width: 60vw;
-  height: 60vw;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.card-1 {
-  background-image: url('../images/scrub-inspired.jpg');
-}
-
-.card-2 {
-  background-image: url('../images/image-3.jpg');
-} */
 
 a {
   display: inline-block;

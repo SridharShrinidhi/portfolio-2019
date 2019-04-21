@@ -1,0 +1,42 @@
+html {
+  font-family: "aktiv-grotesk", sans-serif;
+  /* background-color: #000; */
+}
+
+.main {
+  overflow-y: hidden;
+  white-space: nowrap;
+}
+/*
+.image-card {
+  display: inline-block;
+  width: 60vw;
+  height: 60vw;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.card-1 {
+  background-image: url('../images/scrub-inspired.jpg');
+}
+
+.card-2 {
+  background-image: url('../images/image-3.jpg');
+} */
+
+a {
+  display: inline-block;
+  text-decoration: none;
+  color: #000;
+  width: 85vw;
+  pointer-events: none;
+}
+
+.translate {
+  transform: translateY(5%);
+}
+
+/* a:hover div {
+  opacity: 1;
+  transform: translateY(0%);
+} */

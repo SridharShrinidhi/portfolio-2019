@@ -1,11 +1,35 @@
 html {
   font-family: "aktiv-grotesk", sans-serif;
-  /* background-color: #000; */
+}
+
+.bg-black {
+  background-color: #000;
+}
+
+.font-white {
+  color: #fff;
+}
+
+ul {
+  display: flex;
+  scroll-snap-type: mandatory;
+  scroll-snap-points-y: repeat(85vw);
+  scroll-snap-type: x mandatory;
+}
+
+li {
+  display: flex;
+  scroll-snap-align: center;
 }
 
 .main {
   overflow-y: hidden;
   white-space: nowrap;
+}
+
+span {
+  text-decoration: line-through;
+  opacity: .5;
 }
 
 a {

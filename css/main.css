@@ -1,50 +1,51 @@
 html {
-  font-family: "aktiv-grotesk", sans-serif;
+  font-family: aktiv-grotesk, sans-serif;
+  font-style: normal;
+  font-weight: 700;
 }
 
-.bg-black {
-  background-color: #000;
+p {
+  font-family: aktiv-grotesk, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  color: #585858;
 }
 
-.font-white {
-  color: #fff;
-}
-
-ul {
-  display: flex;
-  scroll-snap-type: mandatory;
-  scroll-snap-points-y: repeat(85vw);
-  scroll-snap-type: x mandatory;
-}
-
-li {
-  display: flex;
-  scroll-snap-align: center;
-}
-
-.main {
-  overflow-y: hidden;
-  white-space: nowrap;
-}
-
-span {
-  text-decoration: line-through;
-  opacity: .5;
+.stroke-text {
+  max-width: 40%;
+  text-align: center;
 }
 
 a {
-  display: inline-block;
   text-decoration: none;
   color: #000;
-  width: 85vw;
-  pointer-events: none;
 }
 
-.translate {
-  transform: translateY(5%);
+.green-factory-text {
+  left: 60%;
+  top: 30%;
 }
 
-/* a:hover div {
-  opacity: 1;
-  transform: translateY(0%);
-} */
+.smart-meal-text {
+  left: 10%;
+  top: 0;
+}
+
+.grad-show-text {
+  left: 10%;
+  top: 8%;
+}
+
+.scrub-inspired-text {
+  left: 10%;
+  top: 0;
+}
+
+.cs-2,
+.cs-3,
+.cs-4,
+.cs-5,
+.cs-6,
+.cs-7 {
+  width: 49%;
+}

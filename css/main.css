@@ -26,6 +26,11 @@ a {
   top: 30%;
 }
 
+.pattern-library-text {
+  left: 45%;
+  top: 10%;
+}
+
 .smart-meal-text {
   left: 10%;
   top: 0;
@@ -41,6 +46,11 @@ a {
   top: 0;
 }
 
+.cactess-text {
+  left: 5%;
+  top: 0;
+}
+
 .cs-2,
 .cs-3,
 .cs-4,
@@ -48,4 +58,26 @@ a {
 .cs-6,
 .cs-7 {
   width: 49%;
+}
+
+.bg {
+  background-color: #faffe1;
+}
+
+.hide {
+  display: none;
+}
+
+.bg-sm {
+  background-color: #e3fdda;
+}
+
+.color-black {
+  color: #000;
+}
+
+.btn-sm {
+  background-color: #fff5b8;
+  border-color: #fff5b8;
+  color: #000;
 }

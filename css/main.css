@@ -11,53 +11,9 @@ p {
   color: #585858;
 }
 
-.stroke-text {
-  max-width: 40%;
-  text-align: center;
-}
-
 a {
   text-decoration: none;
   color: #000;
-}
-
-.green-factory-text {
-  left: 60%;
-  top: 30%;
-}
-
-.pattern-library-text {
-  left: 45%;
-  top: 10%;
-}
-
-.smart-meal-text {
-  left: 10%;
-  top: 0;
-}
-
-.grad-show-text {
-  left: 10%;
-  top: 8%;
-}
-
-.scrub-inspired-text {
-  left: 10%;
-  top: 0;
-}
-
-.cactess-text {
-  left: 5%;
-  top: 0;
-}
-
-.cs-2,
-.cs-3,
-.cs-4,
-.cs-5,
-.cs-6,
-.cs-7 {
-  width: 49%;
 }
 
 .bg {
@@ -68,8 +24,16 @@ a {
   display: none;
 }
 
+.show {
+  display: block;
+}
+
 .bg-sm {
   background-color: #e3fdda;
+}
+
+.opacity-less {
+  opacity: .2;
 }
 
 .color-black {
@@ -80,4 +44,128 @@ a {
   background-color: #fff5b8;
   border-color: #fff5b8;
   color: #000;
+}
+
+.logos {
+  max-width: 50%
+}
+
+.scroll {
+  animation-name: running-footer;
+  animation-duration: 20s;
+  animation-iteration-count: infinite;
+  animation-direction: normal;
+  animation-timing-function: linear;
+}
+
+@keyframes running-footer {
+  0% {
+    transform: translateX(-20%);
+  }
+
+  100% {
+    transform: translateX(100%);
+  }
+
+}
+
+.green-factory-text,
+.smart-meal-text{
+  left: 60%;
+  top: 20%;
+}
+
+.pattern-library-text {
+  left: 45%;
+  top: 10%;
+}
+
+.grad-show-text,
+.marys-garden-text,
+.influenza-text,
+.pointer-creative-text,
+.scrub-inspired-text,
+.anna-belanger-text {
+  left: 10%;
+  top: 8%;
+}
+
+
+.cactess-text {
+  left: 5%;
+  top: 0;
+}
+
+ {
+  left: 10%;
+  top: 5%;
+}
+
+@media only screen and (min-width: 20em) {
+
+  .cs-2,
+  .cs-3,
+  .cs-4,
+  .cs-5,
+  .cs-6,
+  .cs-7 {
+    width: 98%;
+  }
+
+  .stroke-text {
+    max-width: 80%;
+  }
+
+  .work-text,
+  .play-text,
+  .about-text {
+    text-align: center;
+  }
+}
+
+@media only screen and (min-width: 30em) {
+
+  .nav {
+    display: block;
+  }
+
+  .stroke-text {
+    max-width: 60%;
+  }
+
+  .work-text,
+  .play-text,
+  .about-text {
+    text-align: center;
+  }
+
+}
+
+@media only screen and (min-width: 58em) {
+
+  .cs-2,
+  .cs-3,
+  .cs-4,
+  .cs-5,
+  .cs-6,
+  .cs-7 {
+    width: 49%;
+  }
+
+  .stroke-text {
+    max-width: 50%;
+  }
+
+  .work-text {
+    text-align: left;
+  }
+
+  .play-text {
+    text-align: center;
+  }
+
+  .about-text {
+    text-align: right;
+  }
+
 }

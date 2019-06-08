@@ -32,10 +32,6 @@ a {
   background-color: #e3fdda;
 }
 
-.opacity-less {
-  opacity: .2;
-}
-
 .color-black {
   color: #000;
 }
@@ -69,23 +65,13 @@ a {
 
 }
 
-.green-factory-text,
-.smart-meal-text{
-  left: 60%;
-  top: 20%;
-}
-
-.pattern-library-text {
-  left: 45%;
-  top: 10%;
-}
-
 .grad-show-text,
 .marys-garden-text,
 .influenza-text,
 .pointer-creative-text,
 .scrub-inspired-text,
-.anna-belanger-text {
+.anna-belanger-text,
+.pattern-library-text {
   left: 10%;
   top: 8%;
 }
@@ -124,7 +110,9 @@ a:hover {
   .cs-4,
   .cs-5,
   .cs-6,
-  .cs-7 {
+  .cs-7,
+  .cs-12,
+  .cs-13 {
     width: 98%;
   }
 
@@ -139,6 +127,12 @@ a:hover {
 
   .stroke-text {
     height: 20px;
+  }
+
+  .green-factory-text,
+  .smart-meal-text{
+    left: 60%;
+    top: 10%;
   }
 
 }
@@ -160,6 +154,13 @@ a:hover {
     text-align: center;
   }
 
+  .green-factory-text,
+  .smart-meal-text{
+    left: 60%;
+    top: 20%;
+  }
+
+
 }
 
 @media only screen and (min-width: 58em) {
@@ -169,7 +170,9 @@ a:hover {
   .cs-4,
   .cs-5,
   .cs-6,
-  .cs-7 {
+  .cs-7,
+  .cs-12,
+  .cs-13 {
     width: 49%;
   }
 

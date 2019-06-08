@@ -47,7 +47,7 @@ a {
 }
 
 .logos {
-  max-width: 50%
+  max-width: 60%
 }
 
 .scroll {
@@ -90,15 +90,19 @@ a {
   top: 8%;
 }
 
-
 .cactess-text {
   left: 5%;
   top: 0;
 }
 
- {
-  left: 10%;
-  top: 5%;
+.link {
+  color: #f58a33;
+  border-bottom: 2px solid #f58a33;
+}
+
+.link:hover {
+  color: #000;
+  border-bottom: 2px solid #000;
 }
 
 @media only screen and (min-width: 20em) {
@@ -113,14 +117,22 @@ a {
   }
 
   .stroke-text {
-    max-width: 80%;
+    max-width: 100%;
   }
 
   .work-text,
   .play-text,
-  .about-text {
+  .about-text,
+  .prev-text,
+  .home-text,
+  .next-text {
     text-align: center;
   }
+
+  .stroke-text {
+    height: 20px;
+  }
+
 }
 
 @media only screen and (min-width: 30em) {
@@ -130,7 +142,8 @@ a {
   }
 
   .stroke-text {
-    max-width: 60%;
+    height: 20px;
+    width: 160px;
   }
 
   .work-text,
@@ -153,18 +166,22 @@ a {
   }
 
   .stroke-text {
-    max-width: 50%;
+    height: 30px;
+    width: 240px;
   }
 
-  .work-text {
+  .work-text,
+  .prev-text {
     text-align: left;
   }
 
-  .play-text {
+  .play-text,
+  .home-text {
     text-align: center;
   }
 
-  .about-text {
+  .about-text,
+  .next-text {
     text-align: right;
   }
 

@@ -641,12 +641,7 @@ svg.img-flex {
   max-height: 46em;
 }
 
-ul {
-  list-style-type: none;
-}
-
 ul > li::before {
-  content: "·";
   float: left;
   margin-left: -1.6em;
   width: 1.3em;

@@ -54,6 +54,10 @@ a {
   animation-timing-function: linear;
 }
 
+ul {
+  list-style-type: none;
+}
+
 @keyframes running-footer {
   0% {
     transform: translateX(-20%);
